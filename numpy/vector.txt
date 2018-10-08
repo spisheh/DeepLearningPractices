@@ -1,0 +1,3 @@
+dot product time: 0.018218 s
+for loop time: 4.4017 s
+the result of ab= 2.5e+06 is equal to loop= 2.5e+06
