@@ -32,4 +32,7 @@ v**2
 1/v
 v.reshape(row,col)
 x_norm = np.linalg.norm(x,axis=1,keepdims=True)
+
+np.where(A<=0.5,0.,1.)
+
 """

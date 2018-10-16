@@ -55,3 +55,21 @@ def sigmoid(x):
     s = 1/s
     
     return s
+
+def sigmoid_derivative(x):
+    """
+    Compute the gradient (also called the slope or derivative)
+     of the sigmoid function with respect to its input x.
+    
+    Arguments:
+    x -- A scalar or numpy array
+
+    Return:
+    ds -- Your computed gradient.
+    """
+    s = sigmoid(x)
+    ds = s*(1-s)
+    
+    return ds
+
+
